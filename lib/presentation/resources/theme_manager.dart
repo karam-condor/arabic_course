@@ -1,6 +1,6 @@
-import 'package:arabic_app/presentation/font_manger.dart';
-import 'package:arabic_app/presentation/styles_manager.dart';
-import 'package:arabic_app/presentation/values_manager.dart';
+import 'font_manger.dart';
+import 'styles_manager.dart';
+import 'values_manager.dart';
 
 import 'color_manager.dart';
 import 'package:flutter/material.dart';
