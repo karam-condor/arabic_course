@@ -18,6 +18,15 @@ class CustomerResponse {
   @JsonKey(name: "numOfNotification")
   int? numOfNotification;
   CustomerResponse(this.id, this.name, this.numOfNotification);
+
+  //from json
+
+  factory CustomerResponse.fromJson(Map<String, dynamic> json) =>
+      _$CustomerResponseFromJson(json);
+
+  //to json
+
+  Map<String, dynamic> toJson() => _$CustomerResponseToJson(this);
 }
 
 @JsonSerializable()
@@ -29,6 +38,15 @@ class ContactsResponse {
   @JsonKey(name: "link")
   String? link;
   ContactsResponse(this.phone, this.email, this.link);
+
+  //from json
+
+  factory ContactsResponse.fromJson(Map<String, dynamic> json) =>
+      _$ContactsResponseFromJson(json);
+
+  //to json
+
+  Map<String, dynamic> toJson() => _$ContactsResponseToJson(this);
 }
 
 @JsonSerializable()
@@ -39,4 +57,13 @@ class AuthenticationResponse extends BaseResponse {
   ContactsResponse? contacts;
 
   AuthenticationResponse(this.customer, this.contacts);
+
+  //from json
+
+  factory AuthenticationResponse.fromJson(Map<String, dynamic> json) =>
+      _$AuthenticationResponseFromJson(json);
+
+  //to json
+
+  Map<String, dynamic> toJson() => _$AuthenticationResponseToJson(this);
 }
