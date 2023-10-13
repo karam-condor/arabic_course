@@ -1,4 +1,4 @@
-import 'package:arabic_app/domain/models.dart';
+import 'package:arabic_app/domain/model/models.dart';
 import 'package:arabic_app/presentation/onboarding/viewmodel/onboarding_viewmodel.dart';
 import 'package:arabic_app/presentation/resources/assets_manager.dart';
 import 'package:arabic_app/presentation/resources/color_manager.dart';

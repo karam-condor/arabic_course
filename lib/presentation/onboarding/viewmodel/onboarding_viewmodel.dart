@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:arabic_app/domain/models.dart';
+import 'package:arabic_app/domain/model/models.dart';
 import 'package:arabic_app/presentation/base/baseviewmodel.dart';
 import 'package:arabic_app/presentation/resources/assets_manager.dart';
 import 'package:arabic_app/presentation/resources/strings_manager.dart';
